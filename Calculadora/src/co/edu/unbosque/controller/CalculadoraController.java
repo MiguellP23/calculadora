@@ -22,7 +22,7 @@ public class CalculadoraController {
 	            case 1 -> operacion = new Suma();
 //	            case 2 -> operacion = new Resta();
 //	            case 3 -> operacion = new Multiplicacion();
-//	            case 4 -> operacion = new Division();
+	            case 4 -> operacion = new Division();
 	            default -> {
 	                vista.mostrarResultado("Opción invalida");
 	                return;
